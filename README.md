@@ -5,11 +5,13 @@ Exploratory data analysis was conducted in R using UC Irvine Machine Learning Re
 
 
 Processing Instructions:
-- Jupyter Notebook file is included and well as R script file and PNG file showing histogram plot.
+- R script and PNG file showing histogram plot are included.
+- To improve reproducibility of the data analysis, a Jupyter Notebook file is included. 
+
 - To read Jupyter Notebook file:
   - Use R for Jupyter Notebook
     - install R essentials packages for use in Jupyter Notebook.
-      - at command line enter  conda install -c r r-essentials.
+      - at command line enter    conda install -c r r-essentials.
   - install IRKernel, a kernel for R 
     - https://irkernel.github.io/installation/
 - Use R Studio or other application to read R script file.
