@@ -11,7 +11,7 @@ Processing Instructions:
 - To read Jupyter Notebook file:
   - Use R for Jupyter Notebook
     - install R essentials packages for use in Jupyter Notebook.
-      - at command line enter    conda install -c r r-essentials.
+      - at command line enter "conda install -c r r-essentials" without quotes.
   - install IRKernel, a kernel for R 
     - https://irkernel.github.io/installation/
 - Use R Studio or other application to read R script file.
