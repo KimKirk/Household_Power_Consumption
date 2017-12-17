@@ -2,7 +2,7 @@
 path <- file.path(paste(getwd(), 'exdata%2Fdata%2Fhousehold_power_consumption.zip', sep = "/"))
 
 ##set url for download
-url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip";
+url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 
 ##download file and save to working directory
 download.file(url, path)
@@ -42,6 +42,7 @@ using <- function(...) {
 ##install and load packages    
 using("tidyr")
 using("lubridate")
+using("psych")
 
 ##combine Date and Time column together 
 imported_hpc <- unite(imported_hpc, "DateTime", c("Date", "Time"), sep = " ")
@@ -49,8 +50,11 @@ imported_hpc <- unite(imported_hpc, "DateTime", c("Date", "Time"), sep = " ")
 ##convert new column into Date/Time class
 imported_hpc[ ,1] <- dmy_hms(imported_hpc[ ,1])
 
+##get descriptive statistics about the data set
+describe(imported_hpc)
 
-##plot the graph
+
+##plot the graph for global active power
 par(font.main = 2) 
 hist(imported_hpc$Global_active_power, breaks = 20, freq = TRUE, 
     plot = TRUE, col = "green", main = "Global Active Power (February 1 2007 to February 5 2007)", xlab = "Global Active Power (kilowatts)", ylab = "Frequency") 
