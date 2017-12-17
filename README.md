@@ -1,7 +1,7 @@
 # UC_Irvine_Machine_Learning_Repository_Household_Power_Consumption
-Household Power Consumption
+- Household Power Consumption
 
-Exploratory data analysis was conducted in R using UC Irvine Machine Learning Repository "Individual Household Power Consumption" data set to examine via visualization any patterns for how household energy usage varies over a 5-day period in February 2007. Global Active Power was examined because it represents the actual consumed/utilized power in an AC circuit. https://en.wikipedia.org/wiki/AC_power
+- Exploratory data analysis was conducted in R using UC Irvine Machine Learning Repository "Individual Household Power Consumption" data set to examine via visualization any patterns for how household energy usage varies over a 5-day period in February 2007. Global Active Power was examined because it represents the actual consumed/utilized power in an AC circuit. https://en.wikipedia.org/wiki/AC_power
 
 
 Processing Instructions:
