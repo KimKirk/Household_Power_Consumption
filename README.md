@@ -1,7 +1,7 @@
 # UC_Irvine_Machine_Learning_Repository_Household_Power_Consumption
 - Household Power Consumption
 
-- Exploratory data analysis was conducted in R using UC Irvine Machine Learning Repository "Individual Household Power Consumption" data set to examine, via descriptive statistics of the entire data set and visualization for Global Active Power, any patterns for how household energy usage varies over a 5-day period in February 2007. Global Active Power was examined because it represents the actual consumed/utilized power in an AC circuit. https://en.wikipedia.org/wiki/AC_power. 
+- Exploratory data analysis was conducted in R using UC Irvine Machine Learning Repository "Individual Household Power Consumption" data set to examine, via descriptive statistics of the entire data set and visualization for Global Active Power, any patterns for how household energy usage varies over a 5-day period in February 2007. Global Active Power was examined because it represents the actual consumed/utilized power in an AC circuit. [Reference](https://en.wikipedia.org/wiki/AC_power) 
 
 
 Processing Instructions:
@@ -13,11 +13,11 @@ Processing Instructions:
     - install R essentials packages for use in Jupyter Notebook.
       - at command line enter "conda install -c r r-essentials" without quotes.
   - install IRKernel, a kernel for R 
-    - https://irkernel.github.io/installation/
+    - [Here](https://irkernel.github.io/installation/)
 - Use R Studio or other application to read R script file.
 
 Steps to Transformation:
-- Data was downloaded from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+- [Data downloaded](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
 - Data was imported for dates 02-01-2007 to 02-05-2007.
 - Date and Time variables were combined together and converted into Date/Time class for ease of plotting.
 - A simple histogram was plotted using Base plotting package.
